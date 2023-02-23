@@ -13,7 +13,6 @@ import java.io.InputStreamReader;
  */
 
 public class 분해합_2231 {
-
     private static int decomposition(int N) {
         for (int i = 1; i <= N; i++) {
             int sum = i;
