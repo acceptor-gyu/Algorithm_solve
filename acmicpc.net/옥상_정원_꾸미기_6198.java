@@ -14,6 +14,9 @@ import java.util.Deque;
  * O(N log N) 이하로 풀면 될 것아다.
  *
  * - count 오버 플로우 주의.....!!!!!
+ *
+ * 시간 복잡도
+ * - O(N)
  */
 
 public class 옥상_정원_꾸미기_6198 {
