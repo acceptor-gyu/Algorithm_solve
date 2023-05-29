@@ -6,10 +6,7 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-/**
- *
- */
-public class 최소비용_구하기_1916 {
+public class 최단경로_1753 {
 
     private static class Node {
         int end;
