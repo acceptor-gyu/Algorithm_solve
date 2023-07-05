@@ -14,17 +14,56 @@ public class IOIOI_5525 {
 
         int N = Integer.parseInt(br.readLine());
         int M = Integer.parseInt(br.readLine());
-        char[] s = br.readLine().toCharArray();
 
-        int switched = 0;
-        int count = 0;
+        int patterSize = N * 2 + 1;
 
-        for (int i = 0; i < s.length; i++) {
+        char[] S = br.readLine().toCharArray();
+        char[] P = new char[patterSize];
 
+        for (int i = 0; i < patterSize; i++) {
+            if (i % 2 == 0) {
+                P[i] = 'I';
+            } else {
+                P[i] = 'O';
+            }
         }
 
+        int Shash = 0;
+        int Phash = 0;
+        int base = 1;
+        int count = 0;
 
+        for (int i = patterSize - 1; i >= 0; i--) {
+            Shash = Shash + S[i] * base;
+            Phash = Phash + P[i] * base;
 
+            if (i > 0) {
+                base *= 2;
+            }
+        }
+
+        for (int i = 0; i < M - patterSize + 1; i++) {
+
+            if (i > 0) {
+                Shash = (Shash - S[i - 1] * base) * 2 + S[patterSize - 1 + i];
+            }
+
+            if (Phash == Shash) {
+
+                boolean finded = true;
+
+                for (int j = 0; j < patterSize; j++) {
+                    if (S[i + j] != P[j]) {
+                        finded = false;
+                        break;
+                    }
+                }
+
+                if (finded) {
+                    count++;
+                }
+            }
+        }
 
         System.out.println(count);
     }
