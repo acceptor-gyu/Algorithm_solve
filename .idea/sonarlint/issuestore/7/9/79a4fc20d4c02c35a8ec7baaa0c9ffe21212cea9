@@ -1,0 +1,11 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ô¡
+a
+java:S3008"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿ–x
+g
+java:S3008"LRename this field "M" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Áõ¦ıÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ
+m
+java:S37760"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(šİÕêıÿÿÿÿ
+@
+java:S1068"%Remove this unused "M" private field.(Áõ¦ıÿÿÿÿ
