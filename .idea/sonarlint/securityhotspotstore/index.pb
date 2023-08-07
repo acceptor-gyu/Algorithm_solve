@@ -11,8 +11,6 @@ f
 6acmicpc.net/달팽이는_올라가고_싶다_2869.java,0/8/081ed6c213d1695676e5f60c0f921d1c1a3995be
 G
 Solving/IOIOI_5525.java,5/8/58a896edba3ea1f7d00bb6a0a58ca43be95c9671
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 L
 acmicpc.net/찾기_1786.java,a/d/ad4844bca820f2b42740970c97c8e5951a9d5efa
 I
