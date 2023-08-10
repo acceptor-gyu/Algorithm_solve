@@ -15,8 +15,6 @@ L
 acmicpc.net/찾기_1786.java,a/d/ad4844bca820f2b42740970c97c8e5951a9d5efa
 D
 Test/Playground.java,8/0/804731b91997577c2d15235787e9826da5078e01
-I
-acmicpc.net/뱀_3190.java,3/a/3a884b9e71d26a7f2a538802e5fb7ec1f74f13f8
 V
 &acmicpc.net/회의실_배정_1931.java,9/a/9aad4ff8f0531fffc95b0226ae8f69b06ea730bd
 P

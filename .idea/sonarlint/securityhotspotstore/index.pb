@@ -13,8 +13,6 @@ G
 Solving/IOIOI_5525.java,5/8/58a896edba3ea1f7d00bb6a0a58ca43be95c9671
 L
 acmicpc.net/찾기_1786.java,a/d/ad4844bca820f2b42740970c97c8e5951a9d5efa
-I
-acmicpc.net/뱀_3190.java,3/a/3a884b9e71d26a7f2a538802e5fb7ec1f74f13f8
 D
 Test/Playground.java,8/0/804731b91997577c2d15235787e9826da5078e01
 S
