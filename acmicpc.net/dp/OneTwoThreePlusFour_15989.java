@@ -11,7 +11,6 @@ public class OneTwoThreePlusFour_15989 {
         // dp[1][N]: dp[1][N-1]
         // dp[2][N]: dp[1][N-2] + dp[2][N - 2] (N - 2의 1로 끝나는 경우 + 2로 끝나는 경우)
         // dp[3][N]: dp[1][N-3] + dp[2][N-3] + dp[3][N-3] (N - 3의 1로 끝나는 경우 + 2로 끝나는 경우 + 3으로 끝나는 경우)
-
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int max = 10001;
 
