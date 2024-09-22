@@ -1,2 +1,5 @@
-package graph;public class to0_7490 {
+package graph;
+
+public class to0_7490 {
+
 }
