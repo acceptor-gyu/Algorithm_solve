@@ -21,7 +21,7 @@ public class DiameterOfATree_1967 {
     private static int n;
     private static int max = 0;
     private static boolean[] visited;
-    private static int indexOfMax = 0;
+    private static int maxOfIndex = 0;
 
     public static void main(String[] args) throws IOException {
 
@@ -50,8 +50,8 @@ public class DiameterOfATree_1967 {
         dfs(1, 0);
 
         visited = new boolean[n + 1];
-        visited[indexOfMax] = true;
-        dfs(indexOfMax, 0);
+        visited[maxOfIndex] = true;
+        dfs(maxOfIndex, 0);
 
         System.out.println(max);
     }
@@ -60,7 +60,7 @@ public class DiameterOfATree_1967 {
 
         if (max < count) {
             max = count;
-            indexOfMax = index;
+            maxOfIndex = index;
         }
 
         for (Node node : list[index]) {
