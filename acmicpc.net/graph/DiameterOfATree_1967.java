@@ -37,6 +37,7 @@ public class DiameterOfATree_1967 {
         for (int i = 0; i < n - 1; i++) {
 
             String[] target = br.readLine().split(" ");
+
             int parent = Integer.parseInt(target[0]);
             int child = Integer.parseInt(target[1]);
             int weight = Integer.parseInt(target[2]);
