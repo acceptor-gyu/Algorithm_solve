@@ -10,7 +10,6 @@ import java.util.StringTokenizer;
 public class MovingOfKnight_7562 {
 
     static int I;
-    static int[][] map;
     static int[][] distance;
     static int[] dr = {-2, -2, -1, -1, 1, 1, 2, 2};
     static int[] dc = {1, -1, 2, -2, 2, -2, 1, -1};
@@ -24,7 +23,6 @@ public class MovingOfKnight_7562 {
         for (int i = 0; i < T; i++) {
 
             I = Integer.parseInt(br.readLine());
-            map = new int[I][I];
             distance = new int[I][I];
 
             st = new StringTokenizer(br.readLine());
